@@ -12,31 +12,31 @@
     <form name="calculator">
         <div>
             <div>                
-                <input type="text" name="screen" id="screen" >               
+                <input type="text" name="screen" id="screen" disabled>               
             </div>
             <div id="first-row">
                 <div class="btn" id="one" onclick="calculator.screen.value += '1'">1</div>
                 <div class="btn" id="two" onclick="calculator.screen.value += '2'">2</div>
                 <div class="btn" id="three" onclick="calculator.screen.value += '3'">3</div>
-                <div class="btn" class="operator" id="plus" onclick="calculator.screen.value += '+'">+</div>
+                <div class="btn operator" id="plus" onclick="calculator.screen.value += '+'">+</div>
             </div>
             <div id="second-row">
                 <div class="btn" id="four" onclick="calculator.screen.value += '4'">4</div>
                 <div class="btn" id="five" onclick="calculator.screen.value += '5'">5</div>  
                 <div class="btn" id="six" onclick="calculator.screen.value += '6'">6</div>    
-                <div class="btn" class="operator" id="minus" onclick="calculator.screen.value += '-'">-</div>   
+                <div class="btn operator" id="minus" onclick="calculator.screen.value += '-'">-</div>   
             </div>
             <div id="third-row">
                 <div class="btn" id="seven" onclick="calculator.screen.value += '7'">7</div>    
                 <div class="btn" id="eight" onclick="calculator.screen.value += '8'">8</div>     
                 <div class="btn" id="nine" onclick="calculator.screen.value += '9'">9</div>   
-                <div class="btn" class="operator" id="times" onclick="calculator.screen.value += '*'">X</div>    
+                <div class="btn operator" id="times" onclick="calculator.screen.value += '*'">X</div>    
             </div>
             <div id="fourth-row">
                 <div class="btn" id="clear" onclick="calculator.screen.value = ''">C</div>   
                 <div class="btn" id="zero" onclick="calculator.screen.value += '0'">0</div>   
                 <div class="btn" id="equals" onclick="calculator.screen.value = eval(calculator.screen.value)">=</div>  
-                <div class="btn" class="operator" id="divide" onclick="calculator.screen.value += '/'">/</div>  
+                <div class="btn operator" id="divide" onclick="calculator.screen.value += '/'">/</div>  
             </div>
         </div>
     </form>
